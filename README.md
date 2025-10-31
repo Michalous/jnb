@@ -36,3 +36,8 @@ I initially tested the algorithm on a 20 × 20 grid, producing the result shown 
 <img src="newton_fractal.png" alt="My diagram" width="400">
 
 This first version used only three colors, but it confirmed that the idea worked. The upgraded version uses an 800 × 800 grid and 20 shades per color, where each shade represents the number of iterations required for a point to converge to a particular root. 
+
+Find it here: https://github.com/Michalous/jnb/blob/main/newton_raphson.ipynb
+
+### Trapped Knight
+coming up...
