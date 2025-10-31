@@ -20,7 +20,7 @@ Turtle result (1000 paths):
 
 
 
-Matplotlib result: View notebook
+Matplotlib result: https://github.com/Michalous/jnb/blob/main/collatz_conjecture.ipynb
 
 ### Newton Fractals
 TODO
