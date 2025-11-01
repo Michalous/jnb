@@ -1,6 +1,14 @@
 # Jupyter Notebooks
 
-This repository contains 12 Jupyter notebooks exploring various computational and data visualisation problems.
+![Python](https://img.shields.io/badge/python-3.7+-blue.svg)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange.svg)
+![NumPy](https://img.shields.io/badge/numpy-1.21+-blue.svg)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.5+-orange.svg)
+![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
+
+
+
+This repository contains half a dozen Jupyter notebooks exploring various computational and data visualisation problems.
 I’ve started with simpler examples I had on my computer and plan to gradually increase their complexity and depth.
 
 ### Collatz Conjecture Paths
@@ -16,9 +24,6 @@ My first attempt used Python’s turtle module, but since turtle only allows lin
 Turtle result (1000 paths):
 
 <img src="turtle_collatz.png" alt="collatz turtle" width="400">
-
-
-
 
 Matplotlib result: https://github.com/Michalous/jnb/blob/main/collatz_conjecture.ipynb
 
@@ -40,7 +45,7 @@ This first version used only three colors, but it confirmed that the idea worked
 Find it here: https://github.com/Michalous/jnb/blob/main/newton_raphson.ipynb
 
 ### The Trapped Knight
-I came across this intriguing problem through another Numberphile video, which demonstrated how a chess knight behaves when constrained to always move to the lowest-numbered unvisited square on an infinite spiral-numbered grid.
+I came across this problem through another Numberphile video, which demonstrated how a chess knight behaves when constrained to always move to the lowest-numbered unvisited square on an infinite spiral-numbered grid.
 
 The concept is simple: starting from the center (square 1), the knight evaluates its eight possible moves and chooses the one with the smallest number. That square is then marked as visited, and the process repeats. Eventually, after a finite number of moves, the knight becomes "trapped" - all possible moves lead to previously visited squares.
 
@@ -50,3 +55,21 @@ The concept is simple: starting from the center (square 1), the knight evaluates
 The result shows the knight's path over 2016 moves, with color coding representing different phases of the journey.
 
 You can find the path here: https://github.com/Michalous/jnb/blob/main/trapped_knight.ipynb
+
+### Chaos Game
+I came across the Chaos Game through James Gleick's book "Chaos: Making a New Science." I had previously implemented the classic triangle version in JavaScript along with the Sierpinski carpet and Barnsley fern.
+This can be found here: https://michalous.github.io/sierpinski
+
+<img src="chaos.png" alt="chaos game" width="400">
+
+The Chaos Game is a simple algorithm that generates fractal patterns through iterative rules. Starting from a random point, you repeatedly choose a random vertex of a shape and move halfway toward it, plotting each new point. Over many iterations, this creates self-similar fractal structures that fill the space between the original vertices.
+
+For this implementation, I chose a regular pentagon. I initially experimented with different iteration counts and starting positions to understand how the pattern emerges.
+
+The final version generates 120,000 points, revealing the intricate fractal that develops between the pentagon's vertices.
+
+
+This project demonstrates how deterministic rules applied randomly can produce complex patterns. 
+
+You can have a look at it here: https://github.com/Michalous/jnb/blob/main/chaos_game.ipynb
+
