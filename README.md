@@ -5,6 +5,8 @@
 ![NumPy](https://img.shields.io/badge/numpy-1.21+-blue.svg)
 ![Matplotlib](https://img.shields.io/badge/matplotlib-3.5+-orange.svg)
 ![SymPy](https://img.shields.io/badge/sympy-1.10+-orange.svg)
+![HTML](https://img.shields.io/badge/html-5-orange.svg)
+![CSS](https://img.shields.io/badge/css-3-blue.svg)
 ![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
 ![Django](https://img.shields.io/badge/django-4.0+-green.svg)
 
@@ -91,3 +93,17 @@ The notebook demonstrates different approaches to sequence visualization, from s
 
 You can explore these sequence visualizations here: https://github.com/Michalous/jnb/blob/main/sequences.ipynb
 
+
+### Golden Ratio
+I saw the golden ratio animation through another Numberphile video, which explored how this mathematical constant (φ ≈ 1.618) governs patterns in nature, particularly the arrangement of seeds in sunflowers.
+
+I created a simulation showing how sunflower seeds grow using the golden angle. The golden angle (approximately 137.5°) is special because it allows for optimal packing as the flower head expands.
+
+My implementation places seeds sequentially along interlocking spirals, starting from the center and working outward. I also created an interactive animation that shows the growth process in real-time.
+
+You can see the interactive animation here: https://michalous.github.io/golden-ratio
+
+<img src="golden_ratio.png" alt="golden ratio" width="400">
+
+
+Find the full implementation here: https://github.com/Michalous/jnb/blob/main/golden_ratio.ipynb
