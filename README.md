@@ -4,12 +4,16 @@
 ![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange.svg)
 ![NumPy](https://img.shields.io/badge/numpy-1.21+-blue.svg)
 ![Matplotlib](https://img.shields.io/badge/matplotlib-3.5+-orange.svg)
+![SymPy](https://img.shields.io/badge/sympy-1.10+-orange.svg)
 ![JavaScript](https://img.shields.io/badge/javascript-ES6+-yellow.svg)
+![Django](https://img.shields.io/badge/django-4.0+-green.svg)
 
 
 
 This repository contains half a dozen Jupyter notebooks exploring various computational and data visualisation problems.
 I’ve started with simpler examples I had on my computer and plan to gradually increase their complexity and depth.
+
+It's part of my portfolio website: https://www.chronoson.co.uk
 
 ### Collatz Conjecture Paths
 I first came across this conjecture through Project Euler (Problem 14), which asks:
@@ -45,7 +49,7 @@ This first version used only three colors, but it confirmed that the idea worked
 Find it here: https://github.com/Michalous/jnb/blob/main/newton_raphson.ipynb
 
 ### The Trapped Knight
-I came across this problem through another Numberphile video, which demonstrated how a chess knight behaves when constrained to always move to the lowest-numbered unvisited square on an infinite spiral-numbered grid.
+I learned about this problem through another Numberphile video, which demonstrated how a chess knight behaves when constrained to always move to the lowest-numbered unvisited square on an infinite spiral-numbered grid.
 
 The concept is simple: starting from the center (square 1), the knight evaluates its eight possible moves and chooses the one with the smallest number. That square is then marked as visited, and the process repeats. Eventually, after a finite number of moves, the knight becomes "trapped" - all possible moves lead to previously visited squares.
 
@@ -57,7 +61,7 @@ The result shows the knight's path over 2016 moves, with color coding representi
 You can find the path here: https://github.com/Michalous/jnb/blob/main/trapped_knight.ipynb
 
 ### Chaos Game
-I came across the Chaos Game through James Gleick's book "Chaos: Making a New Science." I had previously implemented the classic triangle version in JavaScript along with the Sierpinski carpet and Barnsley fern.
+I found out about the Chaos Game through James Gleick's book "Chaos: Making a New Science." I had previously implemented the classic triangle version in JavaScript along with the Sierpinski carpet and Barnsley fern.
 This can be found here: https://michalous.github.io/sierpinski
 
 <img src="chaos.png" alt="chaos game" width="400">
@@ -72,4 +76,18 @@ The final version generates 120,000 points, revealing the intricate fractal that
 This project demonstrates how deterministic rules applied randomly can produce complex patterns. 
 
 You can have a look at it here: https://github.com/Michalous/jnb/blob/main/chaos_game.ipynb
+
+### Sequences
+
+I became fascinated with the Online Encyclopedia of Integer Sequences (OEIS) as an endless source of mathematical patterns and relationships. This notebook shows three different sequences through visualization.
+
+I also included the Ulam spiral, reusing the number spiral foundation from my earlier work. This visualization reveals hidden patterns in prime numbers, with primes appearing to cluster along diagonal lines.
+
+I've concluded with Feigeinbaum bifurcation diagram and Lorenz attractor which can both be found in "Chaos" book by James Glieck.
+
+The notebook demonstrates different approaches to sequence visualization, from scatter plots to spiral arrangements, and shows how mathematical abstraction can produce visually striking results.
+
+<img src="sequences.png" alt="sequences visualizations" width="400">
+
+You can explore these sequence visualizations here: https://github.com/Michalous/jnb/blob/main/sequences.ipynb
 
